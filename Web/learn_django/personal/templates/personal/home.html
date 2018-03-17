@@ -1,0 +1,31 @@
+{% extends 'personal/header.html' %}
+{% block content %}
+<h1>I am awesome!</h1>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<form id='new_form'>{% csrf_token %}
+    <input type='no' id='no' value = 5><button id='button_clicked' type='submit'>
+    </form>
+  <script type="text/javascript">
+        $(document).on('submit','#new_form', function(e) {
+            e.preventDefault();
+
+            $.ajax({
+                type: 'POST',
+                url: 'personal',
+                data: {
+                    number : $('#no').val(),
+                    csrfmiddlewaretoken: $('input[name=csrfmiddlewaretoken]').val()
+                },
+                success: function(data){
+                    alert('done ' +data)
+                }
+            })
+        });
+  </script>
+
+{% include 'personal/includes/snippet.html' %}
+{% endblock %}

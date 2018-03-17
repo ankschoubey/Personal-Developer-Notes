@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        <form action='' method='post' enctype="multipart/form-data">
+            {% csrf_token %}
+            {% include 'webapp/form_template.html' %}
+
+            <button type='submit'>
+        </form>
+
+    </body>
+</html>

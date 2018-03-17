@@ -100,3 +100,7 @@ ENV/
 # mypy
 .mypy_cache/
 .DS_Store
+Web/learn_django/.idea/misc.xml
+Web/learn_django/.idea/modules.xml
+Web/learn_django/.idea/learn_django.iml
+Web/learn_django/.idea/workspace.xml
