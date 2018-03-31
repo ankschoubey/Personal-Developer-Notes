@@ -1,0 +1,29 @@
+
+<canvas id="poster_canvas" width="500" height="700" style="border:1px solid #d3d3d3;background-color: black;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script src="canvas2image.js" charset="utf-8"></script>
+
+<script>
+
+
+
+function create_default_poster(img) {
+    var text = img.getAttribute('alternative')
+    var c=document.getElementById("poster_canvas");
+    var ctx=c.getContext("2d");
+    ctx.font="50px Arial ";
+    ctx.fillStyle = 'white';
+
+    var height = c.height
+    var width = c.width
+    console.log(height +' '+ width)
+    ctx.textAlign = 'center'
+    ctx.fillText(text,width/2,height/2);
+}
+
+// save img
+//Canvas2Image.saveAsImage(c, 200, 100, 'png');
+</script>
+
+<img src="" alternative="Awesomeness" onerror="create_default_poster(this)">
