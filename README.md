@@ -7,3 +7,4 @@
 - [Introductory Theano](https://github.com/ankschoubey/Personal-Developer-Notes/blob/b9bd95992e9c9690bf61fd2d825d157accf8ac1a/Deep%20Learning/Theona.ipynb)
 - [TextLearning: Bag of words](https://github.com/ankschoubey/Personal-Developer-Notes/blob/0656547e7157d24042c2f1d011bab4025666c2c5/ML/Text%20Learning/Bag%20of%20Words.ipynb)
 - [Simple Dense Neural Network in Keras #FirstNN](https://github.com/ankschoubey/Personal-Developer-Notes/blob/157335d4e0914890b60ed21d43c7a1acebb293d5/Deep%20Learning/NN%20in%20Keras.ipynb)
+- [Auto Encoder Mnist Dataset](Deep Learning/Auto Encoder Mnist Dataset.ipynb) - tldr: it sucks
