@@ -1,6 +1,7 @@
 # Index
 
 TL = Text Learning
+
 Lib = Library
 
 ## April 2017
@@ -9,6 +10,10 @@ Lib = Library
 - Kaggle: [Titanic Survival Classification Dataset](https://github.com/ankschoubey/Personal-Developer-Notes/blob/4d2a99bb7ca03e8f73e0dce3a2393e33851ca965/ML/Titanic%20Survival%20-%20Kaggle.ipynb)
 - Lib: [Basic of Tensorflow](https://github.com/ankschoubey/Personal-Developer-Notes/blob/49387e7824ff96e33e5c8c7d1bf27bb3ca037825/Deep%20Learning/Tensorflow.ipynb)
 - [Singular Value Decomposition (SVD)](https://github.com/ankschoubey/Personal-Developer-Notes/blob/49387e7824ff96e33e5c8c7d1bf27bb3ca037825/ML/Dimensionality%20Reduction/Singular-Value%20Decomposition%20(SVD).ipynb)
+- [Common operations on Pandas Dataframe](https://github.com/ankschoubey/Personal-Developer-Notes/blob/b91c7d067592bf1b68a9894f015918b91a516f6b/Language/Python/Pandas/Common%20operations%20on%20Pandas%20Dataframe.ipynb)
+- [PDF to Images](Personal-Developer-Notes/Language/Python/PDF to Image.ipynb)
+- [Bloom's Filter](Personal-Developer-Notes/Algorithms and Datastructures/Bloom Filter.ipynb)
+- [FM Algorithm](Personal-Developer-Notes/Algorithms and Datastructures/FM Algorithm.ipynb)
 
 ## March 2017
 - [Image Compression using K-Means Clustering](https://github.com/ankschoubey/Personal-Developer-Notes/blob/master/ML/Image%20Compression%20using%20Simple%20K-Means.ipynb)
