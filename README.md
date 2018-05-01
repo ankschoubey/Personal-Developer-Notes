@@ -4,6 +4,17 @@ TL = Text Learning
 
 Lib = Library
 
+## May 2017 Plan
+
+- [ ] Kaggle Deep Learning Course
+- [ ] Udacity's Free Deep Learning Course
+- [ ] Image Classification with Convolutional Neural Network
+- [ ] Decision Tree classifier from Scratch.
+- [ ] Naive bayes classifier from scratch
+- [ ] TF-Learn
+- [ ] CartPole balacing Re-enforcement learning in OpenAi's Gym environment.
+- [ ] Numpy array reshaping.
+
 ## April 2017
 
 - TL: [Twitter Sentiment Analysis using TextBlob](https://github.com/ankschoubey/Personal-Developer-Notes/blob/b256d2a51b25580f2906b644b05f210da71e50e5/ML/Text%20Learning/Twitter%20Sentiment%20Analysis%20using%20TextBlob.ipynb)
